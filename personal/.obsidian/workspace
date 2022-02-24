@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "9cd8c2a92a4fc1f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d558d89b4ead98d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "JVM/Remembered Set 与 Card Table.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d32b12ef07eb8eaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "93a2df564f55fa47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "863cf854c98d2395",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "100fa83fbc9b15c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#jvm",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5add9b955949542",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7ecf3667947ca87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c86cfb78bf6c9ec8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JVM/Remembered Set 与 Card Table.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1185aa8fe37d7309",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9d558d89b4ead98d",
+  "lastOpenFiles": [
+    "JVM/Remembered Set 与 Card Table.md",
+    "JVM/分代收集理论.md",
+    "JVM/.assets/卡表与卡页对应示意图.png",
+    "The First Page.md",
+    "[[The First Page.md"
+  ]
+}
