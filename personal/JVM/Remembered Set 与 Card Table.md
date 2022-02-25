@@ -9,7 +9,7 @@
 
 ```java
 Class RememberedSet {
-	Object[] set[OBJECT_INTERGENERATIONAL_REFERENCE_SIZE];
+    Object[] set[OBJECT_INTERGENERATIONAL_REFERENCE_SIZE];
 }
 ```
 
@@ -29,3 +29,5 @@ CARD_TABLE [this address >> 9] = 0;
 
 字节数组CARD_TABLE的每一个元素都对应着其标识的内存区域中一块特定大小的内存块，这个内存块被称作“卡页”（Card Page）。一般来说，卡页大小都是以2的N次幂的字节数，通过上面代码可以看出HotSpot中使用的卡页是2的9次幂，即512字节（地址右移9位，相当于用地址除以512）。那如果卡表标识内存区域的起始地址是0x0000的话，数组CARD_TABLE的第0、1、2号元素，分别对应了地址范围为0x0000～0x01FF、0x0200～0x03FF、0x0400～0x05FF的卡页内存块
 ![[卡表与卡页对应示意图.png]]
+![image](https://github.com/CZFx/Obsidian/blob/master/personal/JVM/assets/%E5%8D%A1%E8%A1%A8%E4%B8%8E%E5%8D%A1%E9%A1%B5%E5%AF%B9%E5%BA%94%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
+![image](./assets/卡表与卡页对应示意图.png)

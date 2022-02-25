@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JVM/Remembered Set 与 Card Table.md",
+            "file": "设计模式/工厂方法.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/Remembered Set 与 Card Table.md",
+                "file": "设计模式/工厂方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,12 @@
   },
   "active": "9d558d89b4ead98d",
   "lastOpenFiles": [
+    "设计模式/工厂方法.md",
+    "设计模式/assets/简单工厂模式.png",
+    "JVM/assets/卡表与卡页对应示意图.png",
     "JVM/Remembered Set 与 Card Table.md",
     "JVM/分代收集理论.md",
+    "assets.md",
     "JVM/.assets/卡表与卡页对应示意图.png",
     "The First Page.md",
     "[[The First Page.md"
